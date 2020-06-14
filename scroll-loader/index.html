@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Scroll Loader</title>
+  </head>
+  <body>
+    <div class="scroll-loader"></div>
+
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+
+    <script type="text/javascript" src="./scroll.loader.js"></script>
+    <style type="text/css">
+      * {
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+      }
+
+      .scroll-loader {
+        width: 0;
+        height: 6px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        background-color: deepskyblue;
+        transition: .5s;
+        background: rgb(242,158,102);
+        background: linear-gradient(164deg, rgba(242,158,102,1) 0%, rgba(242,102,118,1) 33%, rgba(130,102,242,1) 100%);
+      }
+
+      .box {
+        width: 960px;
+        height: 400px;
+        margin-top: 70px;
+        background-color: #444;
+      }
+
+      .box:last-of-type {
+        margin-bottom: 70px;
+      }
+    </style>
+  </body>
+</html>
