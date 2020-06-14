@@ -1,5 +1,10 @@
 class ScrollLoader {
 
+  /**
+   * You can optionally provide an element to serve as status bar or add
+   * an element with `"scroll-loader"` class in HTML
+   * @param {HTMLElement} [element] Scroll status bar
+   */
   constructor(element) {
     this.element = element || document.querySelector('.scroll-loader');
     window.addEventListener('scroll', () => this.updateElementWidth());
@@ -28,5 +33,3 @@ class ScrollLoader {
   }
 
 }
-
-const loader = new ScrollLoader();
