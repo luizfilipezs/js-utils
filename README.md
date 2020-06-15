@@ -10,6 +10,8 @@ Soon, this project will be a library of utilities made in Vanilla JS.
 
 If you want to create and element to grow as you scroll the page, this utility is for you.
 
+[Live demo](https://luizfilipezs.github.io/js-utils/scroll-loader/)
+
 #### How to use
 
 Create the element and import the JS file:
